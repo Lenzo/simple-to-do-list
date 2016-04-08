@@ -10,6 +10,6 @@ $('form').on('submit', function (e) {
   $input.val('');
 });
 
-$li.on('click', $li, function () {
-  $li.toggleClass('strike')
+$li.on('click', 'li', function () {
+  $li.toggleClass('strike');
 });
